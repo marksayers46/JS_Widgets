@@ -12,4 +12,28 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
+    background-color: #000;
+    color: #fff;
 }
+
+button {
+   padding: 10px;
+   background-color: purple;
+   color: #fff;
+   border: 1px solid purple;
+   font-size: 14px;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+    padding: 20px 30px;
+    overflow: hidden;
+    margin: 10px 0;
+    position: relative;
+}
+
+button .circle {
+    position: absolute;
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+}
+
