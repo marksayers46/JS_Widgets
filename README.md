@@ -1,0 +1,1 @@
+All these JavaScript widgets are fun little projects for those times that you don't have a lot of time to dedicate to practicing your coding that day. Makes me code every day even if I'm struggling for time that day!
