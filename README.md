@@ -1,1 +1,3 @@
-All these JavaScript widgets are fun little projects for those times that you don't have a lot of time to dedicate to practicing your coding that day. Makes me code every day even if I'm struggling for time that day!
+# All these JavaScript widgets are fun little projects for those times that I don't have a lot of time to dedicate to practicing my coding skills. Helps me to code every day even if I'm struggling for time that day. 
+
+# Code everyday, leetcode, HackerRank, TryHackMe, HackTheBox
