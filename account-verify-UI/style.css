@@ -39,8 +39,22 @@ body {
     text-align: center;
     margin: 1%;
     font-weight: 300;
+    -moz-appearance: textfield;
+}
+
+.code::-webkit-outer-spin-button,
+.code::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.code:valid {
+    border-color: #3498db;
+    box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.75);
 }
 
 .info {
     color: #dbd9d9;
 }
+
+
