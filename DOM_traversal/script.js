@@ -1,13 +1,20 @@
-const grandparent = document.getElementById("grandparent-id")
-const parents = document.querySelectorAll('.parent')
+const grandparent = document.querySelector(".grandparent")
+const parents = document.querySelectorAll(".parent")
+const childOne = grandparent.querySelector(".child")
 
-// grandparent.style.backgroundColor = "#333"
+
+//  change grandparent color
+grandparent.style.backgroundColor = "#0349"
 
 
-function changeColor(element) {
+// change both parent color
+function changeParentColor(element) {
     element.style.backgroundColor = "#333"
 }
-// changeColor(grandparent)
+parents.forEach(changeParentColor)
 
-parents.forEach(changeColor)
-
+// change selected child color
+function changeSelectedChild(element) {
+    element.style.backgroundColor = "#644"
+}
+changeSelectedChild(childOne)
