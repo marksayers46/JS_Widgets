@@ -19,9 +19,14 @@ body {
 }
 
 .counter-container {
-    font-size:2rem;
+    font-size: 2rem;
     color: #fff;
+    padding: 2rem;
 } 
+
+.text {
+    font-size: .7rem;
+}
     
    
     
