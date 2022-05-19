@@ -1,4 +1,5 @@
 const grandparent = document.getElementById("grandparent-id")
+const parents = document.querySelectorAll('.parent')
 
 // grandparent.style.backgroundColor = "#333"
 
@@ -6,4 +7,7 @@ const grandparent = document.getElementById("grandparent-id")
 function changeColor(element) {
     element.style.backgroundColor = "#333"
 }
-changeColor(grandparent)
+// changeColor(grandparent)
+
+parents.forEach(changeColor)
+
