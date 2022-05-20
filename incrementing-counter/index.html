@@ -9,30 +9,21 @@
     <title>Incrementing Counter</title>
 </head>
 <body>
-    <div class="followers-container">
-        <div class="counter-container">
-            <div class="icon">
-                <i class="fa-brands fa-twitter"></i>
-            </div>
-            <div class="number-followers">450</div>
-            <div class="text">Twitter Followers</div>
-        </div>
-        <div class="counter-container">
-            <div class="icon">
-                <i class="fa-brands fa-youtube"></i>
-            </div>
-            <div class="number-followers">20</div>
-            <div class="text">YouTube Followers</div>
-        </div>
-        <div class="counter-container">
-            <div class="icon">
-                <i class="fa-brands fa-facebook"></i>    
-            </div>
-            <div class="number-followers">289</div>
-            <div class="text">Facebook followers</div>
-        </div>
+    <div class="counter-container">
+        <i class="fa-brands fa-twitter"></i>
+        <div class="counter" data-target="450">450</div>
+        <span>Twitter Followers</span>
     </div>
-
+    <div class="counter-container">
+        <i class="fa-brands fa-youtube"></i>  
+        <div class="counter" data-target="245">245</div>
+        <span>YouTube Subscribers</span>
+    </div> 
+    <div class="counter-container">
+        <i class="fa-brands fa-facebook"></i>
+        <div class="counter" data-target="950">950</div>
+        <span>Facebook Fans</span>
+    </div>     
 <script src="script.js"></script>
 </body>
 </html>

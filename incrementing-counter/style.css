@@ -1,42 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    height: 100vh;
-    margin: 0;
+    background-color: #8e44ad;
+    color: #fff;
+    font-family: 'Roboto Mono', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
-}
-
-.followers-container {
-    display: flex;
-}
-
-.icon {
-    display: flex;
-    justify-content: center;
-}
-
-.number-followers {
-    display: flex;
-    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
 }
 
 .counter-container {
-    font-size: 2rem;
-    color: #fff;
-    padding: 2rem;
-} 
-
-.text {
-    font-size: .7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 50px;
 }
+
+i {
+    font-size: 40px;
+}
+
+.counter {
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+/* anything under 580px */
+@media(max-width: 580px) {
+    body {
+        flex-direction: column;
+    }
+}
+
     
-   
-    
+ 
+ 
