@@ -18,6 +18,16 @@ body {
     display: flex;
 }
 
+.icon {
+    display: flex;
+    justify-content: center;
+}
+
+.number-followers {
+    display: flex;
+    justify-content: center;
+}
+
 .counter-container {
     font-size: 2rem;
     color: #fff;
