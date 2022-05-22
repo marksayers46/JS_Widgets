@@ -14,8 +14,9 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
     getResult()
 }))
 
+//used if statement and will use switch case next time
 function generateComputerChoice() {
-    const randomNumber = Math.floor(Math.random() * 3) 
+    const randomNumber = Math.floor(Math.random() * possibleChoices.length) 
     console.log(randomNumber)
     if (randomNumber === 0) {
         computerChoice = 'rock'

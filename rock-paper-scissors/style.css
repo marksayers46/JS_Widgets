@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
   
-  body {
+body {
     background-color: #8e44ad;
     color: #fff;
     font-family: 'Roboto Mono', sans-serif;
@@ -15,14 +15,24 @@
     height: 100vh;
     overflow: hidden;
     margin: 0;
-  }
+}
 
-  .btn-section {
-      display: flex;
-  }
+.btn-section {
+    display: flex;
+}
 
-  button {
-      margin: .3rem;
-      padding: .5rem;
-      cursor: pointer;
-  }
+button {
+    margin: .3rem;
+    padding: .5rem;
+    cursor: pointer;
+    border-radius:5px;
+}
+
+button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+button:active {
+    transform: scale(1.2)
+}
