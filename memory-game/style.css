@@ -3,3 +3,25 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #607D8B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 90px;
+}
+
+
+
+#grid {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    margin: 2px;
+}
+
