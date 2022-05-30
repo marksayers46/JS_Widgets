@@ -50,7 +50,6 @@ const cardArray = [
 ]
 
 cardArray.sort(() => 0.5 - Math.random())
-console.log("Cards:", cardArray)
 
 const gridDisplay = document.querySelector('#grid')
 
@@ -60,8 +59,16 @@ function createBoard () {
         card.setAttribute('src', 'images/blank.png')
         card.setAttribute('data-id', i)
         card.setAttribute('class', 'cards')
+        card.addEventListener('click', flipCard)
         gridDisplay.appendChild(card)
+        
         console.log(card, i)
     }
 }
 createBoard()
+
+function flipCard() {
+    const cardId = this.getAttribute('data-id')
+    console.log(cardArray[cardId])
+    console.log('clicked', cardId)
+}

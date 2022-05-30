@@ -30,5 +30,10 @@ span {
 
 .cards {
     margin: 2px;
+    cursor: pointer;
+}
+
+.cards:active {
+    transform: scale(1.03)
 }
 
