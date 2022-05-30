@@ -12,7 +12,14 @@ body {
     margin-left: 90px;
 }
 
+h3 {
+    font-size: 25px;
+}
 
+span {
+    font-size: 25px;
+    color: #fff;
+}
 
 #grid {
     width: 500px;
@@ -21,7 +28,7 @@ body {
     flex-wrap: wrap;
 }
 
-img {
+.cards {
     margin: 2px;
 }
 
