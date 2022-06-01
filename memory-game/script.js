@@ -109,7 +109,6 @@ function checkMatch() {
         cards[optionTwoId].setAttribute('src', 'images/blank.png')
         alert('Sorry try again!')
     }
-    
     cardsChosen = []
     cardsChosenIds = []
 
