@@ -6,14 +6,34 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    /* display: flex;
-    flex-direction: column; */
     height: 100vh;
     margin: 0;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.top-container {
+    margin-left: 50px;
+}
+
+h2 {
+    margin-left: 25px;
+}
+
+.score-container {
+    display: flex;
+}
+
+.time-left-container {
+    display: flex;
+}
+
 .grid {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
