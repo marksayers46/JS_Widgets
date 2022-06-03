@@ -11,8 +11,7 @@ body {
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
+    margin-left: 65px;
 }
 
 .top-container {
@@ -32,13 +31,23 @@ h2 {
 }
 
 .grid {
+    height: 600px;
+    width: 600px;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    margin-left: 65px;
 }
 
 .square {
-    border: 2px #000 solid;
     width: 200px;
     height: 200px;
+    border: 2px #000 solid;
+    background-color:bisque;
+}
+
+.mole {
+    background: url('./images/mole.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
