@@ -2,6 +2,9 @@ const grid = document.querySelector('.grid')
 const blockWidth = '100px'
 const blockHeight = '20px'
 
+const userStart = [230, 10]
+let currentPosition = userStart
+
 //create block location
 class Block {
     constructor(xAxis, yAxis) {
@@ -32,7 +35,7 @@ const blocks = [
 ]
 console.log(blocks[0])
 
-//draw all blocks
+//draw all blocks bottomLeft is our anchor point
 function addBlocks() {
     for (let i = 0; i < blocks.length; i++) {
         const block = document.createElement('div')
@@ -43,3 +46,10 @@ function addBlocks() {
     }
 }
 addBlocks()
+
+//add user with left bottom as anchor point
+const user = document.createElement('div')
+user.classList.add('user')
+user.style.left = currentPosition[0] + 'px'
+user.style.bottom = currentPosition[1] + 'px'
+grid.appendChild(user)

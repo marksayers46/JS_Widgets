@@ -1,7 +1,3 @@
-/* * {
-    margin: 0;
-} */
-
 .grid {
     position: absolute;
     width: 560px;
@@ -14,4 +10,11 @@
     width: 100px;
     height: 20px;
     background-color: blue;
+}
+
+.user {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: purple;
 }
